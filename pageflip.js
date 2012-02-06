@@ -1,4 +1,11 @@
-
+/**
+ * pageflip.js
+ * Source: http://www.html5rocks.com/en/tutorials/casestudies/20things_pageflip.html
+ *
+ * Version: 0.1
+ * Editer: Maple Jan
+ * E-mail: jiancm2001(at)gmail.com
+ **/
 
 (function() {
 	
@@ -25,7 +32,7 @@
 	
 	var flips = [];
 	
-	var direction = ""; //判断鼠标翻页的方向;
+	var direction = ""; //判断鼠标翻页的方向(Record the mouse position)
 	
 	var book = document.getElementById( "book" );
 	
